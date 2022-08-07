@@ -1,0 +1,35 @@
+﻿
+body {
+    height: 100%;
+}
+
+     
+ 
+
+
+     
+        .bg {
+            
+              background-image: url(background10.jpg);
+            background-repeat:no-repeat;
+           
+                 
+        background-attachment: fixed;
+        background-size: 100% 100%;
+           
+            }
+        
+        .headers {
+            
+              background-image: url(background10.jpg);
+           
+           
+                 
+        background-attachment: fixed;
+        background-size: 100% 100%;
+           
+            }
+
+       
+       
+ 
