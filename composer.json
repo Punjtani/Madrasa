@@ -9,6 +9,7 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
         "laravel/tinker": "^2.7",
+        "laravel/ui": "^4.0",
         "mariuzzo/laravel-js-localization": "^1.9"
     },
     "require-dev": {

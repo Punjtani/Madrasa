@@ -5,8 +5,10 @@
         <div id="wowslider-container1">
             <div class="ws_images">
                 <ul>
-                    <li><img class="img-fluid banner-img" style="max-height: 500px" src="uploads/img/Banner%20Madani%20Mashwara.jpg" alt="slide" title="slide" id="wows1_0" /></li>
-                    <li><img class="img-fluid banner-img" style="max-height: 500px" src="uploads/img/Buland%20Kaam%20Banner%20(1).jpg" alt="slide" title="slide" id="wows1_1" /></li>
+                    @foreach($carousel as $car )
+                    <li><img class="img-fluid banner-img" style="max-height: 500px" src="{{asset('/storage/carousel/'.$car->image)}}" alt="slide" title="slide" id="wows1_0" /></li>
+                    @endforeach
+                    <!-- <li><img class="img-fluid banner-img" style="max-height: 500px" src="uploads/img/Buland%20Kaam%20Banner%20(1).jpg" alt="slide" title="slide" id="wows1_1" /></li> -->
                 </ul>
             </div>
             <div class="ws_bullets">

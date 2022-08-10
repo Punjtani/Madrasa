@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Dawat-E-Islami</title>
+    <title>Moin-ul-Islam</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- Favicons -->
@@ -68,12 +69,13 @@
     </script>
 
 </head>
-  @extends('layouts.header')
+@extends('customer.layouts.header')
+
 <body>
-<main class="content">
-            @yield('content')
-        </main>
-    @extends('layouts.footer')
+    <main class="content">
+        @yield('content')
+    </main>
+    @extends('customer.layouts.footer')
 </body>
-   
+
 </html>
